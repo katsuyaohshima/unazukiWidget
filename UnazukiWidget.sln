@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnazukiWidget", "UnazukiWidget\UnazukiWidget.csproj", "{577E575D-C7B8-4E83-AEF6-7A053187634C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{577E575D-C7B8-4E83-AEF6-7A053187634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577E575D-C7B8-4E83-AEF6-7A053187634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577E575D-C7B8-4E83-AEF6-7A053187634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577E575D-C7B8-4E83-AEF6-7A053187634C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {581F624F-FB82-43B8-8A5F-4F4757A3151C}
+	EndGlobalSection
+EndGlobal
