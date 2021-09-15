@@ -19,13 +19,23 @@ namespace UnazukiWidget
         int screen_width = Screen.PrimaryScreen.WorkingArea.Width; //! < スクリーンの作業領域の幅を取得
         bool initialize = false;
 
-        public widget()
+        public widget(string name,string imgPath)
         {
             
+
             InitializeComponent();
+
+            //! * 名前表示
+            NameLabel.Text = name;
+
+            //! * 画像表示
+            try
+            {
+                pictureBox1.ImageLocation = imgPath;
+            }
+            catch { /*pass*/};
             //! * タイマー起動
             timer1.Enabled = true;
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
